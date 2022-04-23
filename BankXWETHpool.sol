@@ -3,14 +3,14 @@ pragma solidity >=0.6.11;
 
 
 //must create interface for it
-import '../../Math/Math.sol';
-import '../../Math/SafeMath.sol';
-import '../../Math/UQ112x112.sol';
-import '../../Oracle/Interfaces/IPIDController.sol';
-import '../../ERC20/IERC20.sol';
-import '../XSD.sol';
-import '../../BankX/BankX.sol';
-import './Interfaces/IBankXWETHpool.sol';
+import './Math.sol';
+import './SafeMath.sol';
+import './UQ112x112.sol';
+import './IPIDController.sol';
+import './IERC20.sol';
+import './XSD.sol';
+import './BankX.sol';
+import './IBankXWETHpool.sol';
 
 contract BankXWETHpool is IBankXWETHpool{
     using SafeMath for uint;
