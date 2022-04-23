@@ -2,14 +2,14 @@
 pragma solidity >=0.6.11;
 
 
-import "../../Math/SafeMath.sol";
-import '../../Uniswap/TransferHelper.sol';
-import "../../Staking/Owned.sol";
-import "../../BankX/BankX.sol";
-import "../../XSD/XSD.sol";
-import '../../Oracle/Interfaces/IPIDController.sol';
-import "../../ERC20/ERC20.sol";
-import "../../Governance/AccessControl.sol";
+import "./SafeMath.sol";
+import './TransferHelper.sol';
+import "./Owned.sol";
+import "./BankX.sol";
+import "./XSD.sol";
+import './IPIDController.sol';
+import "./ERC20.sol";
+import "./AccessControl.sol";
 import "./XSDPoolLibrary.sol";
 
 contract XSDPool is AccessControl, Owned {
