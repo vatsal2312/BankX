@@ -2,7 +2,7 @@
 pragma solidity >=0.6.11;
 
 
-import "../Math/SafeMath.sol";
+import "./SafeMath.sol";
 
 library BankXLibrary {
     using SafeMath for uint;
