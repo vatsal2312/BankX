@@ -2,12 +2,12 @@
 pragma solidity >=0.6.11;
 
 
-import '../XSD/XSD.sol';
-import "../Math/SafeMath.sol";
-import "../Uniswap/BankXLibrary.sol";
-import "../XSD/Pools/XSDPool.sol";
-import "../XSD/Pools/Interfaces/IBankXWETHpool.sol";
-import "../XSD/Pools/Interfaces/IXSDWETHpool.sol";
+import './XSD.sol';
+import "./SafeMath.sol";
+import "./BankXLibrary.sol";
+import "./XSDPool.sol";
+import "./IBankXWETHpool.sol";
+import "./IXSDWETHpool.sol";
 
 
 contract PIDController is Owned {
