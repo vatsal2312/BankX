@@ -2,13 +2,13 @@
 pragma solidity >=0.6.11;
 
 
-import "../Common/Context.sol";
-import "../ERC20/ERC20Custom.sol";
-import "../ERC20/IERC20.sol";
-import "../XSD/XSD.sol";
-import "../Staking/Owned.sol";
-import "../Math/SafeMath.sol";
-import "../Governance/AccessControl.sol";
+import "./Context.sol";
+import "./ERC20Custom.sol";
+import "./IERC20.sol";
+import "./XSD.sol";
+import "./Owned.sol";
+import "./SafeMath.sol";
+import "./AccessControl.sol";
 
 contract BankXToken is ERC20Custom, AccessControl, Owned {
     using SafeMath for uint256;
