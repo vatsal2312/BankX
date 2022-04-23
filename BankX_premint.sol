@@ -2,13 +2,13 @@
 //new-code-start
 pragma solidity >=0.6.11;
 
-import "../Common/Context.sol";
-import "../ERC20/ERC20Custom.sol";
-import "../ERC20/IERC20.sol";
+import "./Context.sol";
+import "./ERC20Custom.sol";
+import "./IERC20.sol";
 import "./BankX.sol";
-import"../XSD/XSD.sol";
-import "../Staking/Owned.sol";
-import "../Math/SafeMath.sol";
+import "./XSD.sol";
+import "./Owned.sol";
+import "./SafeMath.sol";
 
 contract BankX_premint is ERC20Custom, Owned{
     using SafeMath for uint256;
