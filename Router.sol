@@ -3,14 +3,14 @@ pragma solidity >=0.6.11;
 
 import './TransferHelper.sol';
 
-import './Interfaces/IRouter.sol';
-import '../XSD/XSD.sol';
-import '../XSD/Pools/Interfaces/IXSDWETHpool.sol';
-import '../XSD/Pools/Interfaces/IBankXWETHpool.sol';
+import './IRouter.sol';
+import './XSD.sol';
+import './IXSDWETHpool.sol';
+import './IBankXWETHpool.sol';
 import './BankXLibrary.sol';
-import '../Math/SafeMath.sol';
-import '../ERC20/IERC20.sol';
-import '../ERC20/IWETH.sol';
+import './SafeMath.sol';
+import './IERC20.sol';
+import './IWETH.sol';
 
 //import pools and get the price of bankx/xsd with respect to eth. Then multiply into eth_usd_price.
 
