@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.11;
 
-import "../Common/Context.sol";
+import "./Context.sol";
 import "./IERC20.sol";
-import "../Math/SafeMath.sol";
-import "../Utils/Address.sol";
+import "./SafeMath.sol";
+import "./Address.sol";
 
 
 /**
