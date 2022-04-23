@@ -2,19 +2,19 @@
 pragma solidity >=0.6.11;
 
 
-import "../Common/Context.sol";
-import "../ERC20/IERC20.sol";
-import "../ERC20/ERC20Custom.sol";
-import "../ERC20/ERC20.sol";
-import "../Math/SafeMath.sol";
-import "../Staking/Owned.sol";
-import "../BankX/BankX.sol";
-import "./Pools/XSDPool.sol";
-import "./Pools/Interfaces/IBankXWETHpool.sol";
-import "./Pools/Interfaces/IXSDWETHpool.sol";
-import "../Oracle/ChainlinkETHUSDPriceConsumer.sol";
-import "../Oracle/ChainlinkXAGUSDPriceConsumer.sol";
-import "../Governance/AccessControl.sol";
+import "./Context.sol";
+import "./IERC20.sol";
+import "./ERC20Custom.sol";
+import "./ERC20.sol";
+import "./SafeMath.sol";
+import "./Owned.sol";
+import "./BankX.sol";
+import "./XSDPool.sol";
+import "./IBankXWETHpool.sol";
+import "./IXSDWETHpool.sol";
+import "./ChainlinkETHUSDPriceConsumer.sol";
+import "./ChainlinkXAGUSDPriceConsumer.sol";
+import "./AccessControl.sol";
 
 contract XSDStablecoin is ERC20Custom, AccessControl, Owned {
     using SafeMath for uint256;
