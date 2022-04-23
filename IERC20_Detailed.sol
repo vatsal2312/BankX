@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.11;
 
-import "../Common/Context.sol";
-import "../Math/SafeMath.sol";
+import "./Context.sol";
+import "./SafeMath.sol";
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP. Does not include
